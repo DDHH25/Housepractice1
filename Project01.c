@@ -49,6 +49,13 @@ int main()
     printf("%d\n", number2);
     unsigned char led= 170;
     printf("%d\n", led); 
+    printf("%4d\n", number);
+    printf("%-5d\n", 10);
+    printf("%hd\n", b); //short형 출력
+    printf("%hhd\n", a);       //char형 출력
+
+    printf("%ld\n", t);     //long형 출력
+    printf("%lld\n", w); // long long형 출력
     return 0;
     /*
     %d: 부호 있는 10진수 정수
